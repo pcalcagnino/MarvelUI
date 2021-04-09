@@ -8,15 +8,15 @@
 import Foundation
 
 struct MarvelResponse<T: Decodable>: Decodable {
-    var code: Int
-    var status: String
-    var data: MarvelData<T>
+    let code: Int
+    let status: String
+    let data: MarvelData<T>
 }
 
 struct MarvelData<T: Decodable>: Decodable {
-    var offset: Int
-    var limit: Int
-    var total: Int
-    var count: Int
-    var results: [T]
+    let offset: Int
+    let limit: Int
+    let total: Int
+    let count: Int
+    let results: [T]
 }
