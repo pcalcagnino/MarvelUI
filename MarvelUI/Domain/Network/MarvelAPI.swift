@@ -46,7 +46,7 @@ extension MarvelAPI {
         return run(URLRequest(url: baseURL.appendingPathComponent("characters")))
     }
 
-    func run<T: Decodable>(_ request: URLRequest) -> AnyPublisher<[T], Error> {
+    private func run<T: Decodable>(_ request: URLRequest) -> AnyPublisher<[T], Error> {
         return client.run(request)
             .map(\.value)
             .eraseToAnyPublisher()

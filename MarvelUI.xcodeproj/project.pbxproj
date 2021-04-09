@@ -17,6 +17,7 @@
 		6B68FE3D261F6BD600FAACA0 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FE3C261F6BD600FAACA0 /* MarvelAPI.swift */; };
 		6B68FE43261F6CBC00FAACA0 /* MarvelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FE42261F6CBC00FAACA0 /* MarvelResponse.swift */; };
 		6B68FE48261F6E0B00FAACA0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FE47261F6E0B00FAACA0 /* Character.swift */; };
+		6B68FE522620B57A00FAACA0 /* MarvelAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FE512620B57A00FAACA0 /* MarvelAPITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6B68FE3C261F6BD600FAACA0 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		6B68FE42261F6CBC00FAACA0 /* MarvelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponse.swift; sourceTree = "<group>"; };
 		6B68FE47261F6E0B00FAACA0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		6B68FE512620B57A00FAACA0 /* MarvelAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				6B68FE4C2620879200FAACA0 /* Domain */,
-				6B68FE0F261F4E0900FAACA0 /* MarvelUITests.swift */,
 				6B68FE11261F4E0900FAACA0 /* Info.plist */,
+				6B68FE0F261F4E0900FAACA0 /* MarvelUITests.swift */,
 			);
 			path = MarvelUITests;
 			sourceTree = "<group>";
@@ -178,6 +180,7 @@
 		6B68FE4D2620879900FAACA0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6B68FE512620B57A00FAACA0 /* MarvelAPITests.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B68FE10261F4E0900FAACA0 /* MarvelUITests.swift in Sources */,
+				6B68FE522620B57A00FAACA0 /* MarvelAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
