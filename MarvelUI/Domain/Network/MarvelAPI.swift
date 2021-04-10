@@ -7,17 +7,6 @@
 
 import Foundation
 import Combine
-import CryptoKit
-
-struct Security {
-    let apiKey = "3afffc31426bfa5a2c00e9b68bd6c8ec"
-    let privateApiKey = "db315265d0b3892a4ac46a551732bf1b77fb4b17"
-    var timeStamp = Date().timeIntervalSince1970
-    var hash: String {
-        let digest = Insecure.MD5.hash(data: "\(timeStamp)\(privateApiKey)\(apiKey)".data(using: .utf8) ?? Data())
-        return digest.map { String(format: "%02hhx", $0) }.joined()
-    }
-}
 
 struct  MarvelAPI {
     let client: HTTPClient

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3BAB6D26214E8500C514F6 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BAB6C26214E8500C514F6 /* Security.swift */; };
 		6B68FDFE261F4E0600FAACA0 /* MarvelUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FDFD261F4E0600FAACA0 /* MarvelUIApp.swift */; };
 		6B68FE00261F4E0600FAACA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B68FDFF261F4E0600FAACA0 /* ContentView.swift */; };
 		6B68FE02261F4E0800FAACA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B68FE01261F4E0800FAACA0 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3BAB6C26214E8500C514F6 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
 		6B68FDFA261F4E0600FAACA0 /* MarvelUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B68FDFD261F4E0600FAACA0 /* MarvelUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUIApp.swift; sourceTree = "<group>"; };
 		6B68FDFF261F4E0600FAACA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				6B68FE34261F6BA100FAACA0 /* HTTPClient.swift */,
 				6B68FE3C261F6BD600FAACA0 /* MarvelAPI.swift */,
+				6B3BAB6C26214E8500C514F6 /* Security.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				6B68FE48261F6E0B00FAACA0 /* Character.swift in Sources */,
 				6B68FE43261F6CBC00FAACA0 /* MarvelResponse.swift in Sources */,
 				6B68FE3D261F6BD600FAACA0 /* MarvelAPI.swift in Sources */,
+				6B3BAB6D26214E8500C514F6 /* Security.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
